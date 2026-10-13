@@ -1,1 +1,6 @@
 Cambiar las entradas de el archivo config.properties con las de azure
+
+db.url=jdbc:mysql://localhost:3306/tarea?createDatabaseIfNotExist=true&sslMode=DISABLED&allowPublicKeyRetrieval=true
+db.user=root
+db.password=
+aes.key=mi-clave-secreta-123
